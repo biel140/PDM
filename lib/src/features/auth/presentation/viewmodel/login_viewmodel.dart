@@ -16,6 +16,9 @@ abstract class _LoginViewModelBase with Store {
   @observable
   String password = '';
 
+  @observable
+  String teste = '';
+
   void login() async {
     //TODO: Validate username
     //TODO: Validate password
@@ -27,3 +30,7 @@ abstract class _LoginViewModelBase with Store {
     }
   }
 }
+
+
+
+//flutter pub run build_runner build
